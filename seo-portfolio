@@ -1,0 +1,2813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mubashar Shahzad | SEO Growth Consultant & Analyst</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://placehold.co/32x32/7ED957/ffffff?text=MS">
+
+    <!-- Hreflang Tags for International SEO -->
+    <!-- Replace with your actual portfolio URLs for different languages/regions -->
+    <link rel="alternate" hreflang="en-US" href="https://yourportfolio.com/en-us" />
+    <link rel="alternate" hreflang="es-US" href="https://yourportfolio.com/es-us" />
+    <link rel="alternate" hreflang="fr-FR" href="https://yourportfolio.com/fr-fr" />
+    <link rel="alternate" hreflang="de-DE" href="https://yourportfolio.com/de-de" />
+    <link rel="alternate" hreflang="x-default" href="https://yourportfolio.com/" />
+
+
+    <!-- Meta Description for SEO - UPDATED for better SEO -->
+    <meta name="description" content="Mubashar Shahzad: Expert SEO Growth Consultant & Analyst specializing in technical SEO audits, strategic keyword research, authoritative link building, and conversion-focused content optimization. Drive organic traffic, increase leads, and boost revenue with proven, data-backed SEO strategies.">
+
+    <!-- Open Graph (OG) Tags for Social Media Sharing -->
+    <meta property="og:title" content="Mubashar Shahzad | SEO Growth Consultant & Analyst">
+    <meta property="og:description" content="Transforming clicks into customers. Mubashar Shahzad offers cutting-edge SEO strategies for organic traffic growth and increased revenue.">
+    <meta property="og:image" content="https://placehold.co/1200x630/7ED957/ffffff?text=Mubashar+Shahzad+SEO+Consultant+Logo"> <!-- Updated placeholder image URL -->
+    <meta property="og:url" content="https://yourportfolio.com"> <!-- Replace with your actual portfolio URL -->
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags for Twitter Sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourTwitterHandle"> <!-- Replace with your Twitter handle -->
+    <meta name="twitter:title" content="Mubashar Shahzad | SEO Growth Consultant & Analyst">
+    <meta name="twitter:description" content="Expert SEO Analyst helping businesses drive organic traffic, improve rankings, and boost revenue. Book a free consultation!">
+    <meta name="twitter:image" content="https://placehold.co/1200x675/7ED957/ffffff?text=Mubashar+Shahzad+SEO+Expert"> <!-- Updated placeholder image URL -->
+
+    <!-- Google Fonts: Inter for a clean, modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Schema.org JSON-LD Markup for SEO (Person/Professional) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mubashar Shahzad",
+      "url": "https://yourportfolio.com", <!-- Replace with your actual portfolio URL -->
+      "image": "mubashar-shahzad-seo-analyst.jpg",
+      "sameAs": [
+        "https://linkedin.com/in/mubashar-shahzad-seo-analyst",
+        "https://twitter.com/YourTwitterHandle", <!-- Replace with your Twitter handle -->
+        "https://facebook.com/YourFacebookPage", <!-- Replace with your Facebook page -->
+        "https://github.com/YourGitHubProfile" <!-- Replace with your GitHub profile -->
+      ],
+      "jobTitle": "SEO Growth Consultant & Analyst",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Independent Consultant" <!-- Or your company name -->
+      },
+      "alumniOf": "Your University Name" <!-- Optional: add your university -->
+    }
+    </script>
+
+    <style>
+        /* --- CSS Variables: Toptal-Inspired Color Palette & Fonts --- */
+        /* Light Mode (Default) */
+        :root {
+            --primary-color: #7ED957;    /* Vibrant Light Green */
+            --primary-hover: #62B045;    /* Darker green for hover */
+            --secondary-color: #1A73E8;  /* Professional Deep Blue (Replaced former pink) */
+            --bg-color: #ffffff;        /* Crisp white background */
+            --text-color: #333333;       /* Softer grey for body text */
+            --dark-color: #1a1a1a;       /* Dark grey for headings */
+            --border-color: #eaeaea;     /* Light grey for borders */
+            --footer-bg: #1a1a1a;
+            --footer-text-color: #a0a0a0;
+            --card-bg: #ffffff;
+            --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            --form-bg: rgba(255,255,255,0.15);
+            --form-border: rgba(255,255,255,0.3);
+            --form-focus-bg: rgba(255,255,255,0.25);
+            --form-text-color: #ffffff; /* for inputs in dark form section */
+            --faq-summary-hover: #f9f9f9;
+            --profile-border: var(--primary-color);
+            --hero-text-color: rgba(255,255,255,0.9);
+            --section-subtitle-color: #555;
+            --whatsapp-bg: #25D366;
+            --whatsapp-hover: #128C7E;
+            --footer-bottom-color: rgba(255, 255, 255, 0.5);
+            --search-container-bg: rgba(255, 255, 255, 0.9);
+            --search-input-bg: #f8f8f8;
+            --newsletter-bg: #f0f4f8; /* Light blue-grey for newsletter */
+            --newsletter-text: #333333;
+        }
+
+        /* Dark Mode */
+        body.dark-mode {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --dark-color: #f0f0f0; /* Headings become lighter */
+            --border-color: #333333;
+            --footer-bg: #0d0d0d;
+            --footer-text-color: #777777;
+            --card-bg: #1e1e1e;
+            --card-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            --form-bg: rgba(0,0,0,0.3);
+            --form-border: rgba(255,255,255,0.2);
+            --form-focus-bg: rgba(0,0,0,0.4);
+            --form-text-color: var(--text-color); /* inputs become lighter */
+            --faq-summary-hover: #222222;
+            --profile-border: var(--secondary-color); /* Secondary color for contrast in dark mode */
+            --hero-text-color: rgba(255,255,255,0.9); /* Remains light */
+            --section-subtitle-color: #ccc; /* Lighter subtitle in general sections */
+            --whatsapp-bg: #075E54; /* Darker WhatsApp green for contrast */
+            --whatsapp-hover: #054C43;
+            --footer-bottom-color: rgba(255, 255, 255, 0.3);
+            --search-container-bg: rgba(30, 30, 30, 0.9);
+            --search-input-bg: #222222;
+            --secondary-color: #6a9de7; /* Lighter shade of professional blue for dark mode */
+            --newsletter-bg: #1a222a; /* Darker for newsletter */
+            --newsletter-text: #e0e0e0;
+        }
+
+        /* --- General Styling & Resets --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            -webkit-font-smoothing: antialiased;
+            transition: background-color 0.5s ease, color 0.5s ease; /* Smooth theme transition */
+        }
+        .container { max-width: 1100px; margin: auto; padding: 0 2rem; }
+        h1, h2, h3, h4 {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: var(--dark-color);
+            transition: color 0.5s ease; /* Smooth theme transition */
+        }
+        h1 { font-size: 3.8rem; }
+        /* Adjusted h2 font size for prominence */
+        h2 { font-size: 3.2rem; text-align: center; margin-bottom: 3.5rem; }
+        h3 { font-size: 1.7rem; margin-bottom: 0.8rem; }
+        p { font-size: 1.15rem; margin-bottom: 1rem; line-height: 1.8; }
+        section { padding: 6rem 0; overflow: hidden; }
+        .section-subtitle {
+            text-align: center;
+            max-width: 800px;
+            margin: -2.5rem auto 3.5rem auto;
+            font-size: 1.2rem;
+            color: var(--section-subtitle-color);
+            line-height: 1.6;
+            transition: color 0.5s ease; /* Smooth theme transition */
+        }
+
+        /* --- Navbar Scroll Progress Indicator --- */
+        #scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background-color: var(--primary-color); /* Vibrant color for progress */
+            z-index: 1001; /* Above navbar */
+        }
+
+        /* --- Navigation Bar --- */
+        .navbar {
+            position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 1.2rem 2rem;
+            background: var(--bg-color);
+            transition: background 0.3s ease, border-bottom 0.3s ease, padding 0.3s ease;
+            border-bottom: 1px solid transparent;
+        }
+        .navbar.scrolled {
+            padding: 0.8rem 2rem;
+            background: var(--bg-color); /* Use variable directly */
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .nav-logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--dark-color);
+            text-decoration: none;
+            transition: color 0.5s ease;
+        }
+        .nav-menu { display: flex; list-style: none; }
+        .nav-item { margin-left: 2rem; }
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover { color: var(--primary-color); }
+        .hamburger { display: none; cursor: pointer; }
+        .bar { display: block; width: 25px; height: 2px; margin: 6px auto; background-color: var(--dark-color); transition: all 0.3s ease-in-out, background-color 0.5s ease; }
+        .theme-toggle-button {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 5px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+        .theme-toggle-button:hover {
+            color: var(--primary-color);
+            background-color: rgba(0,0,0,0.05); /* subtle hover */
+        }
+        body.dark-mode .theme-toggle-button:hover {
+            background-color: rgba(255,255,255,0.08);
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url('https://placehold.co/1920x1080/404040/ffffff?text=SEO+Growth+Strategy+Background') no-repeat center center/cover;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: var(--hero-text-color);
+            display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 1rem;
+        }
+        .hero h1 { color: #ffffff; margin-bottom: 1.5rem; } /* Changed to pure white for visibility */
+        .hero h1 span { color: var(--primary-color); }
+        .hero p { color: var(--hero-text-color); }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid var(--profile-border); /* Dynamic border color */
+            margin-bottom: 2.5rem;
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease-in-out, border-color 0.5s ease; /* Smooth transition */
+        }
+        .profile-pic:hover {
+            transform: scale(1.05);
+        }
+
+        /* Search Bar */
+        .search-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+            width: 100%;
+            max-width: 500px;
+            background-color: var(--search-container-bg);
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            position: relative;
+            animation: fadeInScale 0.6s ease-out forwards;
+            animation-delay: 0.6s;
+            opacity: 0;
+            transform: scale(0.9);
+            transition: background-color 0.5s ease, box-shadow 0.5s ease;
+        }
+
+        @keyframes fadeInScale {
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .search-input {
+            flex-grow: 1;
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease, background-color 0.5s ease, color 0.5s ease;
+            color: var(--dark-color);
+            background-color: var(--search-input-bg);
+        }
+
+        .search-input:focus {
+            border-color: var(--primary-color);
+        }
+
+        /* --- CTA Buttons with Smooth Transitions (Enhanced) --- */
+        .cta-button {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--bg-color);
+            padding: 16px 40px;
+            border: 2px solid var(--primary-color);
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease-out; /* Smoother, consistent transition */
+            font-size: 1.15rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .cta-button:hover {
+            background: var(--primary-hover);
+            border-color: var(--primary-hover);
+            transform: translateY(-5px) scale(1.02); /* Added slight scale */
+            box-shadow: 0 8px 18px rgba(0,0,0,0.35); /* More pronounced shadow */
+        }
+        .cta-button.secondary {
+            background: transparent;
+            color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        .cta-button.secondary:hover {
+            background: var(--secondary-color);
+            color: var(--bg-color);
+            transform: translateY(-5px) scale(1.02); /* Added slight scale */
+            box-shadow: 0 8px 18px rgba(0,0,0,0.35); /* More pronounced shadow */
+        }
+
+
+        /* --- Animated Content Sections --- */
+        .animate-on-scroll { opacity: 0; transform: translateY(40px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .animate-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
+        @keyframes zoomIn {
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        .animate-zoom-in.is-visible {
+            animation: zoomIn 0.8s ease-out forwards;
+        }
+
+        /* --- Reusable Grid & Card Styles (Enhanced) --- */
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; }
+        .feature-card {
+            background: var(--card-bg);
+            padding: 3rem 2.5rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: transform 0.3s ease-out, border-color 0.3s ease, box-shadow 0.3s ease-out, background-color 0.5s ease; /* Ensure box-shadow transitions */
+            box-shadow: var(--card-shadow);
+        }
+        .feature-card:hover {
+            transform: translateY(-10px); /* Slightly more lift */
+            border-color: var(--secondary-color);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.2); /* More prominent shadow on hover */
+        }
+        .feature-card h3 { margin-top: 1.2rem; font-size: 1.5rem; }
+        .feature-card p { font-size: 1.05rem; line-height: 1.6; }
+        .feature-card-icon {
+            height: 60px; width: auto; margin-bottom: 1.5rem;
+            color: var(--secondary-color);
+        }
+
+        /* --- Process Section --- */
+        .process-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; text-align: center; }
+        .process-step h3 { font-size: 1.6rem; margin-bottom: 1rem; }
+        .process-step p { font-size: 1.05rem; line-height: 1.6; }
+        .process-icon {
+            width: 80px; height: 80px; margin: 0 auto 2rem auto;
+            background-color: var(--card-bg); /* Dynamic background for icon */
+            border-radius: 50%; border: 2px solid var(--primary-color);
+            display: flex; align-items: center; justify-content: center;
+            color: var(--secondary-color);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: background-color 0.5s ease;
+        }
+        .process-icon svg { width: 36px; height: 36px; }
+        .process-cta { text-align: center; margin-top: 5rem; }
+        .whatsapp-button {
+            background-color: var(--whatsapp-bg); /* Dynamic WhatsApp green */
+            border-color: var(--whatsapp-bg);
+        }
+        .whatsapp-button:hover {
+            background-color: var(--whatsapp-hover); /* Dynamic hover color */
+            border-color: var(--whatsapp-hover);
+        }
+
+        /* --- Projects Section (Enhanced) --- */
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; }
+        .project-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            padding: 2.5rem;
+            transition: transform 0.3s ease-out, border-color 0.3s ease, box-shadow 0.3s ease-out, background-color 0.5s ease; /* Ensure box-shadow transitions */
+            box-shadow: var(--card-shadow);
+        }
+        .project-card:hover {
+            transform: translateY(-8px); /* Slight lift */
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 22px rgba(0,0,0,0.18); /* More prominent shadow */
+        }
+        .project-card h3 { margin-bottom: 0.8rem; font-size: 1.6rem; }
+        .project-card p { font-size: 1.05rem; margin-bottom: 0; line-height: 1.6; }
+
+        /* --- Testimonials (Enhanced) --- */
+        #testimonials .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .testimonial-card {
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 10px;
+            margin: 2rem auto; max-width: 850px;
+            border: 1px solid var(--border-color);
+            border-left: 6px solid var(--secondary-color);
+            box-shadow: var(--card-shadow);
+            transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease, transform 0.3s ease-out; /* Add transform transition */
+            text-align: left; /* Ensure text alignment is left for readability */
+            opacity: 0; /* Hidden by default for fade effect */
+            height: auto; /* Allow height to adjust */
+            min-height: 200px; /* Ensure a minimum height for consistent layout */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .testimonial-card.active {
+            opacity: 1;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px); /* Subtle lift on hover */
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .testimonial-card p { font-style: italic; font-size: 1.3rem; margin-bottom: 2rem; line-height: 1.7; }
+        .testimonial-card h4 { text-align: right; font-weight: 600; font-size: 1.15rem; }
+        .testimonial-nav-buttons {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        /* --- Specific Section Backgrounds --- */
+        #comprehensive-expertise {
+            background: linear-gradient(rgba(var(--bg-color-rgb, 255,255,255), 0.95), rgba(var(--bg-color-rgb, 255,255,255), 0.95)), url('https://placehold.co/1920x600/E0F2F7/404040?text=Expertise+Skills+Grid') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: lighten;
+        }
+        #comprehensive-expertise .feature-card-icon { color: var(--primary-color); }
+        #comprehensive-expertise .sample-links-container {
+            margin-top: 4rem;
+            text-align: center;
+            background: var(--newsletter-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--card-shadow);
+            transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
+        }
+        #comprehensive-expertise .sample-links-container h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark-color);
+        }
+        #comprehensive-expertise .sample-links-container ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        #comprehensive-expertise .sample-links-container ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        #problems-i-solve {
+            background: linear-gradient(rgba(var(--bg-color-rgb, 255,255,255), 0.95), rgba(var(--bg-color-rgb, 255,255,255), 0.95)), url('https://placehold.co/1920x600/FFF8DC/404040?text=Business+Challenges') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: lighten;
+        }
+        #problems-i-solve .feature-card-icon { color: var(--primary-color); }
+        #problems-i-solve .section-subtitle { color: var(--section-subtitle-color); } /* Dynamic subtitle color */
+        #projects {
+            background: linear-gradient(rgba(var(--bg-color-rgb, 255,255,255), 0.97), rgba(var(--bg-color-rgb, 255,255,255), 0.97)), url('https://placehold.co/1920x600/F0F8FF/404040?text=Growth+Chart+Success') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: lighten;
+        }
+        #projects .sample-links-container {
+            margin-top: 4rem;
+            text-align: center;
+            background: var(--newsletter-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--card-shadow);
+            transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
+        }
+        #projects .sample-links-container h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark-color);
+        }
+        #projects .sample-links-container ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        #projects .sample-links-container ul li {
+            margin-bottom: 0.5rem;
+        }
+        #industries {
+            background: linear-gradient(rgba(var(--bg-color-rgb, 255,255,255), 0.95), rgba(var(--bg-color-rgb, 255,255,255), 0.95)), url('https://placehold.co/1920x600/FDF2E9/404040?text=Industries+Served') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: lighten;
+        }
+        #impact-results {
+            background: linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.9)), url('https://placehold.co/1920x600/404040/ffffff?text=Impact+Statistics') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: darken;
+            color: var(--hero-text-color); /* Light text on dark background */
+            text-align: center;
+        }
+        #impact-results h2 { color: var(--hero-text-color); } /* Heading is white/light in dark section */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3.5rem;
+        }
+        .stat-item h3 { color: var(--primary-color); font-size: 3.5rem; margin-bottom: 0.6rem; line-height: 1; }
+        .stat-item p { color: var(--hero-text-color); font-size: 1.3rem; margin-bottom: 0; }
+        #recent-case-study {
+            background: linear-gradient(rgba(var(--bg-color-rgb, 255,255,255), 0.95), rgba(var(--bg-color-rgb, 255,255,255), 0.95)), url('https://placehold.co/1920x600/E0FFE0/404040?text=Case+Study+Success') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: lighten;
+        }
+        .recent-case-study-content {
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            max-width: 950px;
+            margin: 0 auto;
+            box-shadow: var(--card-shadow);
+            transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
+        }
+        .recent-case-study-content h3 { font-size: 2rem; margin-bottom: 1.2rem; }
+        .recent-case-study-content strong { color: var(--primary-color); }
+        .recent-case-study-content ul {
+            list-style: disc;
+            margin-left: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-color); /* Use general text color */
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+        .recent-case-study-content ul li { margin-bottom: 0.6rem; }
+        #haro-section {
+            background: linear-gradient(rgba(26, 26, 26, 0.75), rgba(26, 26, 26, 0.75)), url('https://placehold.co/1920x600/404040/ffffff?text=Link+Building+Background') no-repeat center center/cover;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Keep it fixed like other content sections */
+            padding: 6rem 0; /* Keep existing padding */
+            min-height: 450px; /* Ensure section has height for background and content */
+            display: flex; /* For centering content */
+            align-items: center;
+            justify-content: center;
+            text-align: center; /* Center text within the section */
+            color: var(--hero-text-color); /* Ensure text is visible on the dark background */
+        }
+
+        #haro-section h2 {
+            font-size: 3.5rem; /* Larger heading like Toptal */
+            color: #ffffff; /* Ensure text is visible on the background */
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Add text shadow for readability */
+            margin-bottom: 1.5rem;
+        }
+        #haro-section .section-subtitle {
+            color: rgba(255,255,255,0.9); /* Lighter subtitle on dark background */
+            font-size: 1.3rem; /* Larger subtitle */
+            max-width: 900px;
+            margin: 0 auto 2.5rem auto; /* Adjust margin for spacing */
+            line-height: 1.6;
+        }
+
+
+        #call-now-cta {
+            background: linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.9)), url('https://placehold.co/1920x400/3D3D3D/ffffff?text=Call+to+Action+Background') no-repeat center center/cover;
+            background-attachment: fixed;
+            text-align: center;
+            padding: 5rem 0;
+            color: var(--hero-text-color); /* Light text on dark background */
+        }
+        #call-now-cta h2 { color: var(--hero-text-color); margin-bottom: 2.5rem; font-size: 3.2rem; } /* Changed to hero-text-color for visibility */
+        #call-now-cta .cta-button { padding: 20px 50px; font-size: 1.4rem; }
+        #why-me {
+            background: linear-gradient(rgba(var(--bg-color-rgb, 255,255,255), 0.95), rgba(var(--bg-color-rgb, 255,255,255), 0.95)), url('https://placehold.co/1920x600/F8F8F8/404040?text=Strategy+and+Partnership') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: lighten;
+        }
+        #process {
+            background: linear-gradient(rgba(var(--bg-color-rgb, 255,255,255), 0.97), rgba(var(--bg-color-rgb, 255,255,255), 0.97)), url('https://placehold.co/1920x600/E0F2F1/404040?text=Workflow+Process') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: lighten;
+        }
+        #faq {
+            background: linear-gradient(rgba(var(--bg-color-rgb, 255,255,255), 0.97), rgba(var(--bg-color-rgb, 255,255,255), 0.97)), url('https://placehold.co/1920x600/F4F7F6/404040?text=FAQ+Background') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: lighten;
+        }
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 1.2rem;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
+        }
+        .faq-item summary {
+            font-size: 1.25rem;
+            font-weight: 600;
+            padding: 1.5rem 2rem;
+            cursor: pointer;
+            outline: none;
+            position: relative;
+            user-select: none;
+            color: var(--dark-color);
+            transition: background-color 0.2s ease, color 0.5s ease;
+        }
+        .faq-item summary:hover {
+            background-color: var(--faq-summary-hover);
+        }
+        .faq-item summary::marker { display: none; }
+        .faq-item summary::before {
+            content: "\276F";
+            position: absolute;
+            right: 2rem;
+            top: 50%;
+            transform: translateY(-50%) rotate(90deg);
+            transition: transform 0.2s ease;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+        }
+        .faq-item[open] summary::before { transform: translateY(-50%) rotate(270deg); }
+        .faq-content {
+            padding: 0.5rem 2rem 1.5rem 2rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: var(--text-color); /* Use general text color */
+            animation: fadeIn 0.3s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        #contact-form {
+            background: linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.9)), url('https://placehold.co/1920x600/333333/ffffff?text=Contact+Me+Form+Background') no-repeat center center/cover;
+            background-attachment: fixed;
+            background-blend-mode: darken;
+            color: var(--hero-text-color); /* Light text on dark background */
+        }
+        #contact-form h2 {
+            color: var(--hero-text-color); /* Set heading color to light text */
+            font-size: 2.8rem;
+        }
+        #contact-form .section-subtitle { color: var(--hero-text-color); }
+        .contact-form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.8rem;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+        .form-group { margin-bottom: 0.8rem; }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.6rem;
+            font-weight: 500;
+            color: var(--hero-text-color); /* Labels are light */
+            font-size: 1.05rem;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="url"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid var(--form-border); /* Dynamic border */
+            border-radius: 10px;
+            background-color: var(--form-bg); /* Dynamic background */
+            color: var(--form-text-color); /* Dynamic text color */
+            font-family: 'Inter', sans-serif;
+            font-size: 1.05rem;
+            transition: border-color 0.3s ease, background-color 0.5s ease, color 0.5s ease;
+        }
+        .form-group input[type="text"]:focus,
+        .form-group input[type="email"]:focus,
+        .form-group input[type="url"]:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: var(--primary-color);
+            background-color: var(--form-focus-bg); /* Dynamic focus background */
+            outline: none;
+        }
+        .form-group textarea { min-height: 150px; resize: vertical; }
+        .form-submit-button {
+            width: 100%;
+            background: var(--primary-color);
+            color: var(--dark-color);
+            padding: 16px 28px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, color 0.5s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .form-submit-button:hover {
+            background: var(--primary-hover);
+            transform: translateY(-3px) scale(1.01);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+
+        /* Message box styling (for alerts) */
+        .message-box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--dark-color); /* Dynamic background */
+            color: var(--bg-color); /* Dynamic text */
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 1001;
+            display: none;
+            text-align: center;
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+        .message-box.show { display: block; }
+        .message-box button {
+            background-color: var(--primary-color);
+            color: var(--dark-color);
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.3s ease, color 0.5s ease;
+        }
+
+        /* Styles for the new SEO Tools section */
+        #seo-tools {
+            background-color: var(--bg-color); /* Use standard background for continuity */
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        #seo-tools .tool-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--card-shadow);
+            transition: background-color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
+        }
+
+        #seo-tools textarea {
+            width: 100%;
+            min-height: 180px;
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            background-color: var(--search-input-bg); /* Match search input background */
+            color: var(--dark-color); /* Match search input text color */
+            transition: border-color 0.3s ease, background-color 0.5s ease, color 0.5s ease;
+            resize: vertical;
+        }
+
+        #seo-tools textarea:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+
+        #seo-tools .tool-output {
+            margin-top: 2rem;
+            padding: 20px;
+            background-color: var(--search-input-bg); /* Lighter background for output */
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            min-height: 80px;
+            text-align: left;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: var(--text-color);
+            display: flex; /* For centering loading spinner */
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.5s ease, border-color 0.5s ease;
+        }
+
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid var(--primary-color);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            display: none; /* Hidden by default */
+        }
+
+        .loading-spinner.active {
+            display: block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Client Logos Section (Enhanced) */
+        #client-logos {
+            padding: 4rem 0;
+            background-color: var(--newsletter-bg); /* Use a slightly different background */
+            text-align: center;
+        }
+        .slider-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden; /* Hide overflowing logos */
+            margin-top: 3rem;
+            padding: 1rem 0; /* Add some padding for buttons or visual spacing */
+        }
+
+        .logo-carousel {
+            display: flex;
+            white-space: nowrap; /* Prevent logos from wrapping */
+            transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+            padding-bottom: 20px; /* Space for scrollbar if it appears */
+        }
+
+        .logo-carousel.sliding {
+            /* This class will be added/removed by JS to control transition */
+            transition: none; /* Disable transition during quick jumps/resets */
+        }
+
+        .logo-item {
+            flex: 0 0 auto; /* Prevent items from shrinking/growing */
+            display: flex; /* Use flexbox for vertical alignment of image and text */
+            flex-direction: column; /* Stack image and text vertically */
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem 1rem; /* Padding for each logo item */
+            margin: 0 1rem; /* Space between logos */
+            min-width: 120px; /* Control individual logo item width */
+            max-width: 150px;
+            text-align: center;
+            transition: transform 0.2s ease-out; /* Added transition for logo item hover */
+        }
+        .logo-item:hover {
+            transform: translateY(-5px); /* Subtle lift on hover */
+        }
+
+        .logo-item img {
+            max-width: 100%;
+            height: auto;
+            filter: grayscale(100%) brightness(1.5); /* Desaturate and lighten for sleek look */
+            opacity: 0.7;
+            transition: filter 0.3s ease, opacity 0.3s ease, transform 0.2s ease-out; /* Add transform transition for image */
+            margin-bottom: 0.5rem; /* Space between image and text */
+        }
+        .logo-item img:hover {
+            filter: grayscale(0%) brightness(1); /* Full color on hover */
+            opacity: 1;
+            transform: scale(1.05); /* Slightly enlarge image on hover */
+        }
+        body.dark-mode .logo-item img {
+            filter: grayscale(100%) invert(100%) brightness(1.5); /* Invert for dark mode */
+        }
+        body.dark-mode .logo-item img:hover {
+            filter: grayscale(0%) invert(0%) brightness(1);
+        }
+
+        /* Style for the client name below the logo - Adjusted font size and weight */
+        .logo-item strong {
+            font-size: 1.1rem; /* Increased font size for prominence */
+            font-weight: 800; /* Made even bolder */
+            color: var(--dark-color); /* Use dark color for text in light mode */
+            white-space: normal; /* Allow text to wrap if too long */
+            line-height: 1.2;
+            transition: color 0.5s ease; /* Smooth transition for dark mode */
+        }
+
+        body.dark-mode .logo-item strong {
+            color: var(--text-color); /* Use light text color in dark mode */
+        }
+
+        /* New styles for review stars container */
+        .review-stars-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+            gap: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 2.5rem; /* Add some space below it */
+        }
+
+        .review-platform {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.1rem;
+            color: var(--text-color);
+            transition: color 0.5s ease;
+        }
+
+        .review-platform .stars {
+            color: #FFD700; /* Gold color for stars */
+            font-size: 1.2rem;
+        }
+        .review-platform a {
+            text-decoration: none;
+            color: var(--secondary-color);
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .review-platform a:hover {
+            color: var(--primary-color);
+        }
+
+
+        /* Carousel Navigation Buttons */
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(26, 26, 26, 0.7); /* Dark semi-transparent */
+            color: #ffffff; /* Light button text */
+            border: none;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            z-index: 10;
+        }
+        body.dark-mode .carousel-button {
+            background-color: rgba(255, 255, 255, 0.15); /* Lighter semi-transparent in dark mode */
+            color: var(--text-color);
+        }
+
+        .carousel-button:hover {
+            background-color: var(--primary-color);
+            color: var(--dark-color);
+            transform: translateY(-50%) scale(1.1);
+        }
+        .carousel-button.prev { left: 0.5rem; }
+        .carousel-button.next { right: 0.5rem; }
+
+        /* Hide buttons on very small screens if they obstruct content */
+        @media (max-width: 576px) {
+            .carousel-button { display: none; }
+        }
+
+        /* Newsletter Section */
+        #newsletter {
+            background-color: var(--newsletter-bg);
+            padding: 6rem 0;
+            text-align: center;
+            color: var(--newsletter-text);
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+        #newsletter h2 {
+            color: var(--dark-color); /* Headings should be dark/light based on theme */
+        }
+        body.dark-mode #newsletter h2 {
+            color: var(--text-color);
+        }
+        #newsletter p {
+            max-width: 700px;
+            margin: 1rem auto 2rem auto;
+            color: var(--newsletter-text);
+        }
+        .newsletter-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        }
+        .newsletter-form input[type="email"] {
+            flex-grow: 1;
+            padding: 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            background-color: var(--search-input-bg);
+            color: var(--dark-color);
+            font-size: 1rem;
+            transition: border-color 0.3s ease, background-color 0.5s ease, color 0.5s ease;
+            min-width: 250px; /* Ensure input is not too small */
+        }
+        .newsletter-form input[type="email"]:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+        .newsletter-form button {
+            padding: 14px 28px;
+            background-color: var(--primary-color);
+            color: var(--bg-color);
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .newsletter-form button:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        /* Footer Specific Styles */
+        footer {
+            padding: 3.5rem 2rem;
+            background: var(--footer-bg); /* Dynamic background */
+            color: var(--footer-text-color); /* Dynamic text */
+            text-align: left;
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+        footer .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+        footer h4 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        footer ul { list-style: none; padding: 0; }
+        footer ul li { margin-bottom: 0.8rem; }
+        footer ul li a {
+            color: var(--footer-text-color); /* Dynamic text */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer ul li a:hover { color: var(--primary-color); }
+        .footer-social-links a {
+            color: var(--footer-text-color); /* Dynamic text */
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            transition: color 0.3s ease;
+        }
+        .footer-social-links a:hover { color: var(--primary-color); }
+        .footer-contact-info p {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--footer-text-color); /* Dynamic text */
+        }
+        .footer-bottom {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            color: var(--footer-bottom-color); /* Dynamic text */
+            transition: color 0.5s ease;
+        }
+
+        /* Google Translate specific styling to make it blend in better */
+        #google_translate_element {
+            margin-left: 1rem; /* Adjust as needed */
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1; /* Adjust to better fit vertical alignment */
+        }
+
+        #google_translate_element .goog-te-gadget-simple {
+            border: 1px solid var(--border-color) !important;
+            border-radius: 8px !important;
+            background-color: var(--card-bg) !important;
+            padding: 5px 8px !important;
+            line-height: 1.5 !important;
+            font-size: 0.9rem !important;
+            box-shadow: none !important; /* Remove default shadow */
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        body.dark-mode #google_translate_element .goog-te-gadget-simple {
+            background-color: var(--search-input-bg) !important;
+            color: var(--text-color) !important;
+        }
+
+        #google_translate_element .goog-te-gadget-simple select {
+            border: none !important;
+            background-color: transparent !important;
+            color: var(--dark-color) !important; /* Text color for dropdown */
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            height: auto;
+            line-height: inherit;
+        }
+
+        body.dark-mode #google_translate_element .goog-te-gadget-simple select {
+            color: var(--text-color) !important;
+        }
+
+        #google_translate_element .goog-te-gadget-simple .goog-te-menu-value {
+            color: var(--dark-color) !important;
+            font-weight: 500;
+        }
+
+        body.dark-mode #google_translate_element .goog-te-gadget-simple .goog-te-menu-value {
+            color: var(--text-color) !important;
+        }
+
+        .goog-tooltip {
+            display: none !important;
+        }
+        .goog-tooltip:hover {
+            display: none !important;
+        }
+        .goog-text-highlight {
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+        #goog-gt-vt {
+            display: none !important;
+        }
+        .skiptranslate.goog-te-gadget {
+            line-height: 1; /* Adjust to better fit vertical alignment */
+        }
+
+        /* New Certifications Section Styles */
+        #certifications {
+            background-color: var(--bg-color);
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        #certifications .certs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+            justify-content: center;
+        }
+
+        #certifications .cert-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 250px; /* Ensure consistent height */
+        }
+
+        #certifications .cert-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+        #certifications .cert-card img {
+            max-width: 100%;
+            height: 120px; /* Fixed height for consistency */
+            object-fit: contain; /* Ensure entire image is visible */
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            border: 1px solid var(--border-color); /* Subtle border for images */
+            transition: border-color 0.3s ease;
+        }
+
+        #certifications .cert-card img:hover {
+            border-color: var(--primary-color);
+        }
+
+        #certifications .cert-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+            color: var(--dark-color);
+            flex-grow: 1; /* Allow title to take up available space */
+        }
+
+        #certifications .cert-card .cta-button.secondary {
+            font-size: 0.9rem;
+            padding: 8px 15px;
+            margin-top: 1rem;
+            align-self: center; /* Center the button */
+        }
+
+        /* Linked In section & Inspiration section */
+        #linkedin-recognition, #inspiration {
+            background-color: var(--newsletter-bg); /* Use a consistent light background */
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        #linkedin-recognition h2, #inspiration h2 {
+            margin-bottom: 2rem;
+        }
+
+        #linkedin-recognition .linkedin-post-embed, #inspiration .linkedin-post-embed {
+            max-width: 700px;
+            margin: 0 auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            border: 1px solid var(--border-color);
+            transition: box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+
+        #linkedin-recognition .linkedin-post-embed:hover, #inspiration .linkedin-post-embed:hover {
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            border-color: var(--primary-color);
+        }
+
+        #linkedin-recognition iframe, #inspiration iframe {
+            width: 100%;
+            height: 450px; /* Adjust height as needed for visibility */
+            border: none;
+        }
+
+        /* Mission Section - Flip Card Styles */
+        #mission {
+            padding: 6rem 0;
+            text-align: center;
+            background-color: var(--bg-color);
+        }
+
+        .mission-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
+            justify-content: center;
+        }
+
+        .flip-card-container {
+            background-color: transparent;
+            width: 100%; /* Take full grid column width */
+            height: 280px; /* Fixed height for consistency */
+            perspective: 1000px; /* For 3D effect */
+            border-radius: 10px;
+            box-shadow: var(--card-shadow);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .flip-card-container:hover {
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .flip-card {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s; /* Smooth flip animation */
+            transform-style: preserve-3d;
+        }
+
+        .flip-card-container:hover .flip-card {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden; /* Safari */
+            backface-visibility: hidden;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            color: var(--text-color);
+            transition: background-color 0.5s ease, border-color 0.5s ease, color 0.5s ease;
+        }
+
+        .flip-card-front {
+            background-color: var(--card-bg);
+            color: var(--dark-color);
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .flip-card-front .icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .flip-card-back {
+            background-color: var(--primary-color);
+            color: #ffffff; /* White text on primary background */
+            transform: rotateY(180deg);
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .flip-card-back p {
+            margin-bottom: 0; /* Remove default paragraph margin */
+            font-size: 1.1rem;
+            color: #ffffff;
+        }
+
+        /* Ensure dark mode colors for flip cards are well contrasted */
+        body.dark-mode .flip-card-front {
+            background-color: var(--card-bg); /* Darker card background */
+            color: var(--dark-color); /* Light heading color */
+        }
+        body.dark-mode .flip-card-front .icon {
+            color: var(--secondary-color); /* Use secondary for icon in dark mode */
+        }
+        body.dark-mode .flip-card-back {
+            background-color: var(--secondary-color); /* Use secondary for back in dark mode */
+            color: #ffffff;
+        }
+        body.dark-mode .flip-card-back p {
+            color: #ffffff;
+        }
+
+
+        /* --- Responsive Design --- */
+        @media(max-width: 992px) {
+            h1 { font-size: 3.5rem; }
+            h2 { font-size: 2.5rem; } /* Adjusted for smaller screens */
+            h3 { font-size: 1.6rem; }
+            p { font-size: 1.1rem; }
+            .section-subtitle { font-size: 1.1rem; }
+            .hero h1 { font-size: 3.5rem; }
+            .hero p { font-size: 1.2rem; }
+            #call-now-cta h2 { font-size: 2.8rem; }
+            .cta-button { padding: 12px 30px; font-size: 1.05rem; }
+            .profile-pic { width: 160px; height: 160px; }
+            .logo-item strong { font-size: 1rem; } /* Adjust for smaller screens */
+
+            .flip-card-container {
+                height: 250px; /* Adjust height for smaller screens */
+            }
+            .flip-card-front {
+                font-size: 1.3rem;
+            }
+            .flip-card-back {
+                font-size: 1.05rem;
+            }
+        }
+        @media(max-width: 768px) {
+            .nav-menu {
+                position: fixed; left: -100%; top: 68px; flex-direction: column;
+                background-color: var(--bg-color); /* Dynamic background */
+                width: 100%; text-align: center;
+                transition: 0.3s; border-top: 1px solid var(--border-color);
+            }
+            .nav-menu.active { left: 0; }
+            .nav-item { margin: 1.5rem 0; }
+            .hamburger { display: block; }
+            .hamburger.active .bar:nth-child(2) { opacity: 0; }
+            .hamburger.active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+            .hamburger.active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+            /* Adjust fixed backgrounds for mobile for better performance/visuals */
+            #comprehensive-expertise, #problems-i-solve, #projects, #industries, #impact-results, #recent-case-study, #haro-section, #call-now-cta, #why-me, #process, #faq, #contact-form, #inspiration, #mission {
+                background-attachment: scroll;
+            }
+
+            .search-container { max-width: 90%; }
+
+            footer .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .footer-social-links { text-align: center; margin-top: 1rem; }
+            .footer-social-links a { margin: 0 0.8rem; }
+
+            #seo-tools .tool-container {
+                padding: 2rem;
+            }
+            .newsletter-form {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            .newsletter-form input[type="email"],
+            .newsletter-form button {
+                width: 100%;
+                max-width: 350px; /* Constrain width on mobile */
+            }
+            #haro-section h2 { font-size: 2.5rem; }
+            #haro-section .section-subtitle { font-size: 1.1rem; }
+
+            .flip-card-container {
+                height: 220px; /* Further adjust height for tablets */
+            }
+            .flip-card-front {
+                font-size: 1.2rem;
+            }
+            .flip-card-back {
+                font-size: 0.95rem;
+            }
+        }
+        @media(max-width: 576px) {
+            h1 { font-size: 2.8rem; }
+            h2 { font-size: 1.8rem; } /* Further adjusted for very small screens */
+            h3 { font-size: 1.4rem; }
+            p { font-size: 1rem; }
+            .section-subtitle { font-size: 1rem; }
+            .hero h1 { font-size: 2.8rem; }
+            .hero p { font-size: 1.1rem; }
+            #call-now-cta h2 { font-size: 2rem; }
+            #call-now-cta .cta-button { padding: 10px 25px; font-size: 1rem; }
+            .profile-pic { width: 140px; height: 140px; }
+            .feature-card, .project-card, .testimonial-card { padding: 2rem; }
+            .process-icon { width: 70px; height: 70px; }
+            .faq-item summary { font-size: 1.1rem; padding: 1.2rem 1.5rem; }
+            .faq-content { padding: 0.5rem 1.5rem 1rem 1.5rem; }
+            .form-group input, .form-group textarea, .form-group select { padding: 10px; }
+            .form-submit-button { padding: 12px 20px; font-size: 1.1rem; }
+
+            .search-input { padding: 10px 12px; font-size: 0.9rem; }
+            /* Removed voice-search-button specific styling here as the button itself is removed */
+
+            #seo-tools .tool-container {
+                padding: 1.5rem;
+            }
+            #seo-tools textarea {
+                min-height: 120px;
+            }
+            .logo-item strong { font-size: 0.9rem; } /* Adjust for very small screens */
+            #haro-section h2 { font-size: 2rem; }
+            #haro-section .section-subtitle { font-size: 1.1rem; }
+
+            #certifications .cert-card {
+                min-height: 220px;
+            }
+            #certifications .cert-card img {
+                height: 100px;
+            }
+            .flip-card-container {
+                height: 200px; /* Adjust height for mobile */
+            }
+            .flip-card-front {
+                font-size: 1.1rem;
+                padding: 1rem;
+            }
+            .flip-card-front .icon {
+                font-size: 2rem;
+                margin-bottom: 0.5rem;
+            }
+            .flip-card-back {
+                font-size: 0.85rem;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">Mubashar Shahzad</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#comprehensive-expertise" class="nav-link">Expertise</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li> <!-- New Blog link -->
+                <li class="nav-item"><a href="#contact-form" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="tel:+923059158010" class="nav-link cta-button">Call Now</a></li>
+                <!-- Light/Dark Mode Toggle Button -->
+                <li class="nav-item">
+                    <button id="themeToggle" class="nav-link theme-toggle-button" aria-label="Toggle light and dark mode">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                </li>
+                <!-- Google Translate Element -->
+                <li class="nav-item">
+                    <div id="google_translate_element"></div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero">
+            <div class="container">
+                <!-- Profile picture updated -->
+                <img src="mubashar-shahzad-seo-analyst.jpg" alt="Mubashar Shahzad Profile Picture" class="profile-pic animate-on-scroll">
+                <h1 class="animate-on-scroll">Transforming Clicks into Customers</h1>
+                <!-- Updated content after H1 -->
+                <p class="animate-on-scroll" style="transition-delay: 0.2s;">Hi! I'm Mubashar Shahzad, a <strong style="color:var(--primary-color)">Certified SEO Expert</strong> who gets genuinely excited about watching businesses grow. Let's turn your website into your most powerful source of revenue.</p>
+                <a href="mailto:mubasharshahzad726@gmail.com" id="email-contact-link" class="cta-button animate-on-scroll" style="transition-delay: 0.4s;">Book Free Consultation</a>
+
+                <!-- Search Bar -->
+                <div class="search-container animate-on-scroll" style="transition-delay: 0.8s;">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search for topics...">
+                    <!-- Voice Search Button removed -->
+                </div>
+
+                <!-- NEW: Client Perspective Toggle Switch -->
+                <div class="client-toggle-container animate-on-scroll" style="transition-delay: 1.0s;">
+                    <span class="client-toggle-label">I'm looking for:</span>
+                    <div class="toggle-switch-buttons">
+                        <div class="toggle-switch-indicator" id="toggleIndicator"></div>
+                        <button class="toggle-button active" id="servicesButton">My Services</button>
+                        <button class="toggle-button" id="resourcesButton">Client Resources</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LINKEDIN RECOGNITION SECTION -->
+        <section id="linkedin-recognition">
+            <div class="container animate-on-scroll">
+                <h2>Recognizing Prestigious Organizations</h2>
+                <p class="section-subtitle" style="transition-delay: 0.1s;">
+                    My journey as a Certified SEO Expert is continuously evolving through learning from and collaborating with leading platforms in the industry.
+                </p>
+                <div class="linkedin-post-embed">
+                    <!-- LinkedIn Post Embed - Using an iframe for demonstration.
+                         Real LinkedIn embeds are more complex and require their JS SDK.
+                         This is a simplified representation. -->
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7341609657297207296" height="450" width="100%" frameborder="0" allowfullscreen="" title="Embedded LinkedIn Post"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- BEHIND MY INSPIRATION SECTION (NEW) -->
+        <section id="inspiration">
+            <div class="container animate-on-scroll">
+                <h2>Behind My Inspiration: A Journey of Purpose</h2>
+                <p class="section-subtitle" style="transition-delay: 0.1s;">
+                    Every professional journey has a story. Mine is rooted in a deep-seated desire to solve real problems and make a tangible impact, inspired by moments that remind me why I do what I do.
+                </p>
+                <div class="linkedin-post-embed">
+                    <!-- LinkedIn Post Embed for inspiration -->
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7340047525606756352" height="450" width="100%" frameborder="0" allowfullscreen="" title="Embedded LinkedIn Post - Inspiration"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- MY MISSION SECTION (NEW WITH FLIP CARDS) -->
+        <section id="mission">
+            <div class="container animate-on-scroll">
+                <h2>My Mission & Core Values</h2>
+                <p class="section-subtitle" style="transition-delay: 0.1s;">
+                    More than just services, my work is driven by a clear mission to empower businesses and achieve lasting success.
+                </p>
+                <div class="mission-cards-grid">
+                    <!-- Mission Card 1 -->
+                    <div class="flip-card-container animate-on-scroll animate-zoom-in">
+                        <div class="flip-card">
+                            <div class="flip-card-front">
+                                <span class="icon"><i class="fas fa-chart-line"></i></span>
+                                Growth-Driven Results
+                            </div>
+                            <div class="flip-card-back">
+                                <p>To deliver measurable growth in organic traffic and revenue, ensuring every SEO effort translates into tangible business success.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mission Card 2 -->
+                    <div class="flip-card-container animate-on-scroll animate-zoom-in" style="transition-delay: 0.1s;">
+                        <div class="flip-card">
+                            <div class="flip-card-front">
+                                <span class="icon"><i class="fas fa-handshake"></i></span>
+                                Partnership & Trust
+                            </div>
+                            <div class="flip-card-back">
+                                <p>To build strong, transparent relationships with clients, acting as a trusted advisor and an extension of their team.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mission Card 3 -->
+                    <div class="flip-card-container animate-on-scroll animate-zoom-in" style="transition-delay: 0.2s;">
+                        <div class="flip-card">
+                            <div class="flip-card-front">
+                                <span class="icon"><i class="fas fa-lightbulb"></i></span>
+                                Innovative Strategies
+                            </div>
+                            <div class="flip-card-back">
+                                <p>To constantly innovate and adapt, employing cutting-edge SEO techniques that keep clients ahead in a dynamic digital landscape.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mission Card 4 -->
+                    <div class="flip-card-container animate-on-scroll animate-zoom-in" style="transition-delay: 0.3s;">
+                        <div class="flip-card">
+                            <div class="flip-card-front">
+                                <span class="icon"><i class="fas fa-user-check"></i></span>
+                                Client Empowerment
+                            </div>
+                            <div class="flip-card-back">
+                                <p>To empower clients with clear insights and understanding, enabling them to make informed decisions about their SEO future.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS SECTION -->
+        <section id="certifications">
+            <div class="container animate-on-scroll">
+                <h2>My Professional Certifications</h2>
+                <p class="section-subtitle" style="transition-delay: 0.1s;">
+                    As a Certified SEO Expert, I continuously expand my knowledge and validate my skills with certifications from industry-leading platforms.
+                </p>
+                <div class="certs-grid">
+                    <div class="cert-card animate-on-scroll animate-zoom-in">
+                        <img src="https://placehold.co/200x120/7ED957/ffffff?text=Semrush+Audit" alt="Semrush Technical SEO Audit Certificate">
+                        <h3>Semrush Technical SEO Audit</h3>
+                        <a href="https://static.semrush.com/academy/certificates/784e9e95d8/mubashar-shahzad_2.pdf" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                    <div class="cert-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.1s;">
+                        <img src="https://placehold.co/200x120/1A73E8/ffffff?text=Semrush+Local" alt="Semrush Local SEO Certificate">
+                        <h3>Semrush Local SEO</h3>
+                        <a href="https://static.semrush.com/academy/certificates/dc62ffef01/mubashar-shahzad_6.pdf" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                    <div class="cert-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.2s;">
+                        <img src="https://placehold.co/200x120/7ED957/ffffff?text=Semrush+Intl" alt="Semrush International SEO Certificate">
+                        <h3>Semrush International SEO</h3>
+                        <a href="https://www.semrush.com/academy/courses/International-seo/exam/result/" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                    <div class="cert-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.3s;">
+                        <img src="https://placehold.co/200x120/1A73E8/ffffff?text=Semrush+Content" alt="Semrush Content Marketing Certificate">
+                        <h3>Semrush Content Marketing</h3>
+                        <a href="https://static.semrush.com/academy/certificates/9fd6054824/mubashar-shahzad_2.pdf" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                    <div class="cert-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.4s;">
+                        <img src="https://placehold.co/200x120/7ED957/ffffff?text=Semrush+Keyword" alt="Semrush Keyword Research Certificate">
+                        <h3>Semrush Keyword Research</h3>
+                        <a href="https://static.semrush.com/academy/certificates/5b45f886c9/mubashar-shahzad_2.pdf" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                    <div class="cert-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.5s;">
+                        <img src="https://placehold.co/200x120/1A73E8/ffffff?text=HubSpot+SEO+II" alt="HubSpot SEO II Certificate">
+                        <h3>HubSpot SEO II</h3>
+                        <a href="https://app.hubspot.com/academy/achievements/tc8vffrw/en/1/mubashar-shahzad/seo-ii" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                     <div class="cert-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.6s;">
+                        <img src="https://placehold.co/200x120/7ED957/ffffff?text=Semrush+Comp" alt="Semrush Competitive Analysis Certificate">
+                        <h3>Semrush Competitive Analysis</h3>
+                        <a href="https://static.semrush.com/academy/certificates/8b69c9c0d7/mubashar-shahzad_1.pdf" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                    <div class="cert-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.7s;">
+                        <img src="https://placehold.co/200x120/1A73E8/ffffff?text=Semrush+OnPage" alt="Semrush On-Page SEO Certificate">
+                        <h3>Semrush On-Page SEO</h3>
+                        <a href="https://static.semrush.com/academy/certificates/ecb8c2577a/mubashar-shahzad_2.pdf" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                    <div class="cert-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.8s;">
+                        <img src="https://placehold.co/200x120/7ED957/ffffff?text=HubSpot+SEO" alt="HubSpot SEO Certificate">
+                        <h3>HubSpot SEO</h3>
+                        <a href="https://app.hubspot.com/academy/achievements/ny1vmh7b/en/1/mubashar-shahzad/seo" target="_blank" rel="noopener noreferrer" class="cta-button secondary">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CLIENT LOGOS SECTION -->
+        <section id="client-logos">
+            <div class="container">
+                <h2 class="animate-on-scroll">Trusted by Industry Leaders</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">
+                    Proud to have partnered with a diverse range of companies to drive their organic growth and achieve remarkable results.
+                </p>
+                <!-- Trustpilot and GMB Review Stars -->
+                <div class="review-stars-container animate-on-scroll" style="transition-delay: 0.15s;">
+                    <div class="review-platform">
+                        <span class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </span>
+                        <a href="https://www.trustpilot.com/review/yourdomain.com" target="_blank" rel="noopener noreferrer">5.0 on Trustpilot</a>
+                    </div>
+                    <div class="review-platform">
+                        <span class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </span>
+                        <a href="https://g.page/your-gmb-profile/review" target="_blank" rel="noopener noreferrer">5.0 on Google</a>
+                    </div>
+                </div>
+                <div class="slider-container animate-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="logo-carousel" id="logoCarousel">
+                        <!-- Updated logo items with bold text below -->
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=GlobalTech" alt="Client Logo GlobalTech Solutions">
+                            <strong>GlobalTech Solutions</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=ApexInnov" alt="Client Logo Apex Innovations">
+                            <strong>Apex Innovations</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=QuantumH" alt="Client Logo Quantum Health">
+                            <strong>Quantum Health</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=Stratton" alt="Client Logo Stratton Legal">
+                            <strong>Stratton Legal</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=Finvest" alt="Client Logo Finvest Capital">
+                            <strong>Finvest Capital</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=DigitalH" alt="Client Logo Digital Horizon">
+                            <strong>Digital Horizon</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=EcoSol" alt="Client Logo EcoSolutions Pro">
+                            <strong>EcoSolutions Pro</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=UrbanLiv" alt="Client Logo Urban Living Co.">
+                            <strong>Urban Living Co.</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=PeakPerf" alt="Client Logo Peak Performance Academy">
+                            <strong>Peak Performance Academy</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=AeroDyn" alt="Client Logo AeroDynamics Inc.">
+                            <strong>AeroDynamics Inc.</strong>
+                        </div>
+                         <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=MediCare" alt="Client Logo MediCare Solutions">
+                            <strong>MediCare Solutions</strong>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://placehold.co/100x50/cccccc/000000?text=EduVerse" alt="Client Logo EduVerse Learning">
+                            <strong>EduVerse Learning</strong>
+                        </div>
+                    </div>
+                    <button class="carousel-button prev" id="carouselPrev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-button next" id="carouselNext"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- MY COMPREHENSIVE EXPERTISE (COMBINED SECTION) -->
+        <section id="comprehensive-expertise">
+            <div class="container">
+                <h2 class="animate-on-scroll">My Comprehensive Expertise & Skillset</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">A holistic approach covering all critical aspects of full-spectrum SEO services, designed to deliver measurable online growth.</p>
+                <div class="features-grid">
+                    <div class="feature-card animate-on-scroll animate-zoom-in">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12a9 9 0 1118 0 9 9 0 01-18 0zM3 8.25h18M3 15.75h18M12 3v18" /></svg>
+                        <h3>Technical SEO Mastery</h3>
+                        <p>Identifying and resolving complex website technical issues that hinder search engine crawling, indexing, and overall performance. Includes expert <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">technical SEO audits</a>.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.1s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 100 15 7.5 7.5 0 000-15zM21 21l-5.197-5.197" /></svg>
+                        <h3>Strategic Keyword Optimization</h3>
+                        <p>Deep-diving into <a href="https://moz.com/beginners-guide-to-seo/keyword-research" target="_blank" rel="noopener noreferrer">keyword research strategy</a> to uncover high-intent, profitable terms that connect you with your ideal customers.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.2s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18.75c.305 0 .609.027.91.086a8.967 8.967 0 006-3.75c.305 0 .609.027.91.086A8.967 8.967 0 006 12.75V3.75z" /></svg>
+                        <h3>On-Page & Content Excellence</h3>
+                        <p>Crafting and optimizing content that not only ranks highly but also resonates with users and drives conversions. Focus on content optimization for maximum impact.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.3s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg>
+                        <h3>Authoritative Link Building</h3>
+                        <p>Building <a href="https://www.searchenginejournal.com/link-building/" target="_blank" rel="noopener noreferrer">high-quality, relevant backlinks</a> through effective link building services to enhance your domain authority and search engine trust organically.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.4s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+                        <h3>Local SEO Domination</h3>
+                        <p>Optimizing your presence for local searches, driving foot traffic and local leads through Google My Business and local citations as a dedicated local SEO expert.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll animate-zoom-in" style="transition-delay: 0.5s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.5l6-6 4 4 6.5-6.5M12 19.5l4-4M19.5 15l-4-4M21 21L3 3" /></svg>
+                        <h3>Analytics & Reporting Clarity</h3>
+                        <p>Providing transparent, data-driven insights into your performance, ensuring you understand the ROI of every SEO service effort.</p>
+                    </div>
+                </div>
+                <!-- Website Audit Samples -->
+                <div class="sample-links-container animate-on-scroll" style="transition-delay: 0.6s;">
+                    <h3>Website Audit Samples</h3>
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/11DRWNBX0N7cUXEt5YBkqtN07qIc_hYHXVTdL--Uzm2M/edit?usp=sharing" target="_blank" class="cta-button secondary">View Full Website Audit Sample 1</a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/11DRWNBX0N7cUXEt5YBkqtN07qIc_hYHXVTdL--Uzm2M/edit?usp=sharing" target="_blank" class="cta-button secondary">View Full Website Audit Sample 2</a>
+                        </li>
+                    </ul>
+                </div>
+                 <!-- Strategy Work Done -->
+                <div class="sample-links-container animate-on-scroll" style="transition-delay: 0.7s;">
+                    <h3>Strategy Work Done</h3>
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/113P7DA-RLFAdUwtR4ifpVNW0nCH4KperEREyevnbkII/edit?usp=sharing" target="_blank" class="cta-button secondary">View Strategy Work Sample</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- SEO Roadmap and Strategy -->
+                <div class="sample-links-container animate-on-scroll" style="transition-delay: 0.8s;">
+                    <h3>SEO Roadmap and Strategy</h3>
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1lBtLbzi7RsiN5I7zHdjqykUS9Fs-rKoX3BAvMWo3NmY/edit?usp=sharing" target="_blank" class="cta-button secondary">View SEO Roadmap & Strategy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROBLEMS I SOLVE SECTION (Kept for content reference, but not in header nav) -->
+        <section id="problems-i-solve">
+            <div class="container">
+                <h2 class="animate-on-scroll">Common Problems I Solve for Businesses</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s; color: var(--section-subtitle-color);">Are you facing any of these challenges? I help businesses overcome these hurdles and achieve their growth targets.</p>
+                <div class="features-grid">
+                    <div class="feature-card animate-on-scroll">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" /></svg>
+                        <h3>Low Organic Traffic</h3>
+                        <p>Your website exists, but no one's finding it through search engines. We'll fix visibility issues.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.1s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.174 3.352 1.9 3.352h13.713c1.726 0 2.766-1.852 1.9-3.352l-6.838-11.853c-.87-.756-2.02-.756-2.89 0L12 9zM12 15.75h.007v.008H12v-.008z" /></svg>
+                        <h3>Poor Conversion Rates</h3>
+                        <p>You have traffic, but visitors aren't turning into leads or customers. We'll optimize for action.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.2s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                        <h3>Technical SEO Errors</h3>
+                        <p>Broken links, slow speed, or indexing issues are holding you back. We'll diagnose and repair.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.3s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" /></svg>
+                        <h3>Stagnant Growth</h3>
+                        <p>Your business has hit a plateau, and you need a new strategy to scale your online presence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS & SUCCESS STORIES SECTION -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="animate-on-scroll">Projects & Success Stories</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">A selection of businesses I've helped to grow their online presence and achieve measurable results.</p>
+                <div class="projects-grid">
+                    <div class="project-card animate-on-scroll">
+                        <h3>GlobalTech Insights</h3>
+                        <p>Led comprehensive SEO strategy for a leading tech publication, boosting monthly organic traffic from <strong>1.5 million to over 4 million visitors (+167%)</strong> and securing top 3 rankings for highly competitive industry keywords.</p>
+                    </div>
+                    <div class="project-card animate-on-scroll" style="transition-delay: 0.1s;">
+                        <h3>Enterprise SaaS Corp</h3>
+                        <p>Optimized core product pages and content clusters for a major B2B SaaS platform, resulting in a <strong>250% increase in qualified organic leads</strong> and contributing to a <strong>$500k monthly increase in pipeline value</strong> from organic search.</p>
+                    </div>
+                    <div class="project-card animate-on-scroll" style="transition-delay: 0.2s;">
+                        <h3>Dolls Cleaning</h3>
+                        <p>Successfully boosted local SEO for a cleaning service, achieving top map pack rankings and a significant increase in local bookings. This resulted in boosting monthly organic traffic by <strong>180% to 50,000 visitors</strong>.</p>
+                    </div>
+                    <div class="project-card animate-on-scroll" style="transition-delay: 0.3s;">
+                        <h3>Mammoth Roofing</h3>
+                        <p>Dominated the local map pack for high-value keywords, leading to a 250% increase in qualified organic leads and growing monthly website visits to over <strong>120,000</strong>.</p>
+                    </div>
+                    <div class="project-card animate-on-scroll" style="transition-delay: 0.4s;">
+                        <h3>AAA Mobile Tyres</h3>
+                        <p>Achieved page-one rankings for emergency-related terms, significantly boosting urgent call-in clients. This resulted in a <strong>300% surge</strong> in organic traffic, reaching <strong>75,000 monthly users</strong>.</p>
+                    </div>
+                    <div class="project-card animate-on-scroll" style="transition-delay: 0.5s;">
+                        <h3>Garage Door Prosmi</h3>
+                        <p>Restructured site content and technical SEO to capture top rankings for "repair" and "installation" services, driving a <strong>220% increase</strong> in organic search visibility, leading to <strong>90,000 unique monthly visitors</strong>.</p>
+                    </div>
+                    <div class="project-card animate-on-scroll" style="transition-delay: 0.6s;">
+                        <h3>Effortless Shed</h3>
+                        <p>Implemented a content strategy that increased organic traffic for "buy now" keywords by over <strong>200%</strong>, now attracting <strong>60,000 engaged users monthly</strong>.</p>
+                    </div>
+                    <div class="project-card animate-on-scroll" style="transition-delay: 0.7s;">
+                        <h3>Door Doctor</h3>
+                        <p>Grew organic appointment bookings through a targeted local SEO and GMB optimization campaign, boosting organic appointment bookings by <strong>170%</strong> and website traffic to <strong>45,000 visits/month</strong>.</p>
+                    </div>
+                </div>
+                <!-- Detailed Project Reports -->
+                <div class="sample-links-container animate-on-scroll" style="transition-delay: 0.8s;">
+                    <h3>Detailed Project Reports</h3>
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1PNdQ4Qn_ACrd85NziZf-WKVOgF98lmnJ1GYGzfjdzJA/edit?gid=976809958#gid=976809958" target="_blank" class="cta-button secondary">View Full Website Audit Sample 1</a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1DfY3cot3MFbQnMOvCnZN6h3OUKXI4NFsyBaj44YNj5A/edit?gid=220798112#gid=220798112" target="_blank" class="cta-button secondary">View Full Website Audit Sample 2</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Local SEO Performance Reports -->
+                <div class="sample-links-container animate-on-scroll" style="transition-delay: 0.9s;">
+                    <h3>Local SEO Performance Reports</h3>
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1C2l2YhfHVc2K8qDQ8lf774k4DUAW3I5gQHz23ZVAklw/edit?gid=146090825#gid=146090825" target="_blank" class="cta-button secondary">Local SEO Report 1</a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1rLY9WFKDuaOCVKI80PqeoUOqmZDsVz18cA-6nWoaNGI/edit?usp=sharing" target="_blank" class="cta-button secondary">Local SEO Report 2</a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1GEd0-_LbMdSG7cb-MKxyAGD6nIcNa3xI-UwfVoMnbHE/edit?usp=sharing" target="_blank" class="cta-button secondary">Local SEO Report 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Reporting -->
+                <div class="sample-links-container animate-on-scroll" style="transition-delay: 1.0s;">
+                    <h3>Reporting</h3>
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/document/d/1ZF6stGSC69i8sP00NzmDjfW_71ybKKz5/edit?tab=t.0#heading=h.gjdgxs" target="_blank" class="cta-button secondary">View Client Report</a>
+                        </li>
+                    </ul>
+                </div>
+                 <!-- Action Plans -->
+                <div class="sample-links-container animate-on-scroll" style="transition-delay: 1.1s;">
+                    <h3>Action Plans</h3>
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1rmhtTKluDN_U0P8ZGCSXrfNb_mMiBmhns9X5AVdYh24/edit?gid=1665679470#gid=1665679470" target="_blank" class="cta-button secondary">View Action Plan Example</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- INDUSTRIES SERVED SECTION (Kept for content reference, but not in header nav) -->
+        <section id="industries">
+            <div class="container">
+                <h2 class="animate-on-scroll">Industries I've Helped Grow</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">My expertise spans various sectors, consistently boosting revenue and online presence for diverse businesses.</p>
+                <div class="features-grid">
+                    <div class="feature-card animate-on-scroll">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-3.75-2.25L21 3m0 0h-3.75M21 3v3.75" /></svg>
+                        <h3>E-commerce & Retail</h3>
+                        <p>Driving product visibility and sales through optimized product pages, category pages, and conversion funnels.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.1s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+                        <h3>Local Services</h3>
+                        <p>Dominating local search packs and Google My Business to generate high-quality leads for brick-and-mortar businesses.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.2s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21L7.5 15.75m0 0L21 21M7.5 15.75a4.5 4.5 0 114.5 4.5 4.5 4.5 0 01-4.5-4.5zM21 21L16.5 16.5M16.5 16.5a4.5 4.5 0 114.5 4.5 4.5 4.5 0 01-4.5-4.5z" /></svg>
+                        <h3>SaaS & Technology</h3>
+                        <p>Increasing organic sign-ups and trial conversions for software and tech companies through targeted content and technical SEO.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.3s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 009-9V6.75M12 21a9 9 0 01-9-9V6.75M12 21v-4.5m0 0V3M15 9h3.75M15 15h3.75M18 12h.008M6 15H2.25M6 9H2.25M3 12h.008M12 6.75h.008M12 3v-2.25" /></svg>
+                        <h3>Finance & Fintech</h3>
+                        <p>Navigating competitive financial landscapes to secure top rankings for high-value transactional keywords.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.4s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 009-9V6.75M12 21a9 9 0 01-9-9V6.75M12 21v-4.5m0 0V3M15 9h3.75M15 15h3.75M18 12h.008M6 15H2.25M6 9H2.25M3 12h.008M12 6.75h.008M12 3v-2.25" /></svg>
+                        <h3>Healthcare & Wellness</h3>
+                        <p>Improving online visibility for clinics, practitioners, and wellness brands, generating patient inquiries.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.5s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-.528-.428-1-1-1H4.5c-.572 0-1 .472-1 1s.428 1 1 1H18.5c.572 0 1-.472 1-1z" /></svg>
+                        <h3>Education & E-learning</h3>
+                        <p>Attracting students and participants for courses, workshops, and educational platforms through targeted content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- IMPACT & RESULTS SECTION -->
+        <section id="impact-results">
+            <div class="container">
+                <h2 class="animate-on-scroll">Real Impact, Tangible Results</h2>
+                <p class="section-subtitle animate-on-scroll" style="color: rgba(255,255,255,0.85); transition-delay: 0.1s;">My focus is on delivering measurable growth that directly contributes to your bottom line.</p>
+                <div class="stats-grid">
+                    <div class="stat-item animate-on-scroll">
+                        <h3>200%+</h3>
+                        <p>Average Organic Traffic Growth</p>
+                    </div>
+                    <div class="stat-item animate-on-scroll" style="transition-delay: 0.1s;">
+                        <h3>40%+</h3>
+                        <p>Average Conversion Rate Increase</p>
+                    </div>
+                    <div class="stat-item animate-on-scroll" style="transition-delay: 0.2s;">
+                        <h3>Top 3</h3>
+                        <p>Rankings Achieved for Core Keywords</p>
+                    </div>
+                    <div class="stat-item animate-on-scroll" style="transition-delay: 0.3s;">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction Focus</p>
+                    </div>
+                </div>
+                <div class="process-cta animate-on-scroll" style="transition-delay: 0.4s;">
+                    <a href="mailto:mubasharshahzad726@gmail.com" class="cta-button" id="email-contact-link-bottom" style="margin-top: 3rem;">Let's Achieve Your Results</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- RECENT CASE STUDY SECTION (Kept for content reference, but not in header nav) -->
+        <section id="recent-case-study">
+            <div class="container">
+                <h2 class="animate-on-scroll">Recent Case Study: From Struggling to Soaring</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">See how a data-driven, client-centric SEO strategy delivered dramatic results in just two months.</p>
+                <div class="recent-case-study-content animate-on-scroll" style="transition-delay: 0.2s;">
+                    <h3>The Challenge: Stagnant Growth & Untapped Potential</h3>
+                    <p>I recently rescued a professional services company with locations in Northern Virginia and Chesterfield, Michigan, that had been struggling for 8 months. While they had decent branded traffic, they couldn't drive organic relevant traffic that actually generated revenue or leads - stuck at only <strong>1,200 monthly organic sessions</strong> with keywords around <strong>position 47</strong> and just <strong>22 leads per month</strong>.</p>
+
+                    <h3>My Approach: Deep Dive & Targeted Action</h3>
+                    <p>My approach started with a comprehensive audit covering technical performance, content quality, keyword opportunities, website response rates, layout issues, and CRO optimization gaps. I conducted deep competitor analysis to understand what was working in their local markets, studying demographics and user psychology in both Northern Virginia and Michigan to craft content matching search intent. Most importantly, I dove deep into their business niche to understand exactly what their potential customers are searching for and how they make purchasing decisions.</p>
+
+                    <p>Within the first 3 weeks, I fixed critical technical issues, including slow load times, missing local schema markup, and mobile optimization problems. Then I launched an aggressive content marketing strategy, publishing 3-5 highly informative blogs weekly, targeting well-researched, high-search-volume topics specific to their service areas. I focused on local search optimization and targeted outreach without aggressive backlinking, instead emphasizing quality content that addressed real customer pain points in both markets.</p>
+
+                    <h3>The Transformation: Dramatic Results in 2 Months</h3>
+                    <ul>
+                        <li><strong>Organic Traffic:</strong> Exploded from <strong>1,200 to 4,164 monthly sessions (+247%)</strong>.</li>
+                        <li><strong>Keyword Rankings:</strong> Jumped from <strong>position 47 to position 8</strong> for relevant terms.</li>
+                        <li><strong>Organic Leads:</strong> Increased from <strong>22 to 127 per month (+477%)</strong>.</li>
+                        <li><strong>Monthly Revenue:</strong> Grew from <strong>$18,400 to $51,560 (+180% ROI)</strong>.</li>
+                        <li><strong>Conversion Rate:</strong> Doubled from <strong>1.8% to 3.8%</strong> because the traffic was now highly relevant and purchase-ready.</li>
+                    </ul>
+                    <p>This proves that understanding your client's business niche deeply, combined with strategic local content marketing, can reverse months of poor performance in weeks.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HARO & LINK BUILDING SECTION -->
+        <section id="haro-section">
+            <div class="container animate-on-scroll">
+                <h2>Elevate Your Authority: HARO & Strategic Link Building</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">
+                    Leveraging <a href="https://www.helpareporter.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">HARO (Help A Reporter Out)</a> and advanced outreach techniques to secure high-authority backlinks and significantly boost your domain's credibility and search rankings. I connect your expertise with journalists seeking sources, earning valuable media mentions that drive both authority and organic traffic.
+                </p>
+                <a href="mailto:mubasharshahzad726@gmail.com" class="cta-button animate-on-scroll" style="transition-delay: 0.2s;">Secure High-Authority Backlinks</a>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE ME (Kept for content reference, but not in header nav) -->
+        <section id="why-me">
+            <div class="container">
+                <h2 class="animate-on-scroll">Why Partner With Me for Growth?</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">I combine technical expertise with a genuine commitment to your success, creating SEO strategies that deliver measurable business results.</p>
+                <div class="features-grid">
+                    <div class="feature-card animate-on-scroll">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                        <h3>Revenue-Focused Strategy</h3>
+                        <p>My strategies are built with one primary goal: to grow your bottom line. We move beyond vanity metrics to focus on activities that generate qualified leads, sales, and tangible ROI.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.1s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 100 15 7.5 7.5 0 000-15zM21 21l-5.197-5.197" /></svg>
+                        <h3>Data-Backed & Transparent</h3>
+                        <p>Every decision is backed by data. You'll receive clear, actionable reports that connect my SEO efforts directly to your business objectives, ensuring full transparency and accountability.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.2s;">
+                        <svg class="feature-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h12A2.25 2.25 0 0020.25 14.25V3M3.75 3H18v11.25M3.75 3v-1.5A2.25 2.25 0 016 .75h12A2.25 2.25 0 0120.25 3v1.5M3.75 16.5h15M12 21v-3.375c0-.621-.504-1.125-1.125-1.125H9.75c-.621 0-1.125.504-1.125 1.125V21" /></svg>
+                        <h3>Proactive & Adaptive</h3>
+                        <p>The SEO landscape is always changing. I stay ahead of the curve, adapting your strategy to algorithm updates and market trends to ensure long-term, sustainable growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW TO START PROCESS SECTION (Kept for content reference, but not in header nav) -->
+        <section id="process">
+            <div class="container">
+                <h2 class="animate-on-scroll">How to Start the Process</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">A simple, transparent process designed to get us from conversation to results efficiently.</p>
+                <div class="process-grid">
+                    <div class="process-step animate-on-scroll">
+                        <div class="process-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193l-3.72 3.72a2.25 2.25 0 01-3.182 0l-3.72-3.72c-1.133-.093-1.98-1.057-1.98-2.193V10.608c0-.97.616-1.813 1.5-2.097L12 6.75l8.25 1.761z" /><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75v8.25-8.25zM12 15V6.75" /></svg></div>
+                        <h3>Step 1: Discovery Call</h3>
+                        <p>A free, 30-minute call where we discuss your business, goals, and challenges. This helps me understand your vision and see if we're a good fit.</p>
+                    </div>
+                    <div class="process-step animate-on-scroll" style="transition-delay: 0.1s;">
+                        <div class="process-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></div>
+                        <h3>Step 2: Strategy & Proposal</h3>
+                        <p>I perform an initial audit of your online presence and deliver a custom proposal with a clear, actionable strategy tailored to your business goals.</p>
+                    </div>
+                    <div class="process-step animate-on-scroll" style="transition-delay: 0.2s;">
+                        <div class="process-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.63 2.25c-5.52 0-10.34 3.43-12.12 8.19l.738 2.75a6 6 0 005.84 7.38v-4.8" /></svg></div>
+                        <h3>Step 3: Execution & Growth</h3>
+                        <p>Once approved, I get to work. You receive regular, transparent reports tracking our progress and the direct impact on your business growth.</p>
+                    </div>
+                </div>
+                <div class="process-cta animate-on-scroll" style="transition-delay: 0.3s;">
+                    <h3>Ready to take the first step?</h3>
+                    <a href="https://wa.me/923059158010" target="_blank" class="cta-button whatsapp-button" id="whatsapp-contact-link" style="margin-top: 1rem;">Let's Chat on WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLIENT TESTIMONIALS -->
+        <section id="testimonials">
+            <div class="container">
+                <h2 class="animate-on-scroll">What My Clients Say</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">Hear directly from businesses that have experienced significant growth and success through our partnership.</p>
+                <!-- Testimonial content will be dynamically loaded here -->
+                <div id="testimonial-display" class="testimonial-card animate-on-scroll" style="transition-delay: 0.2s;">
+                    <p id="testimonial-quote"></p>
+                    <h4 id="testimonial-author"></h4>
+                </div>
+                <div class="testimonial-nav-buttons animate-on-scroll" style="transition-delay: 0.3s;">
+                    <button class="cta-button secondary" id="prevTestimonial">Previous</button>
+                    <button class="cta-button secondary" id="nextTestimonial">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOG SECTION (New Placeholder) -->
+        <section id="blog">
+            <div class="container">
+                <h2 class="animate-on-scroll">My Latest Insights & SEO Blog</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">Stay updated with the latest SEO trends, tips, and strategies to grow your online presence.</p>
+                <!-- Actual blog posts -->
+                <div class="features-grid">
+                    <div class="feature-card animate-on-scroll" style="background-color: #f9f9f9;">
+                        <h3>Mastering Local SEO: A Guide for Small Businesses</h3>
+                        <p>Learn the essential strategies to dominate local search results and drive more foot traffic to your physical store or service area.</p>
+                        <a href="#" class="cta-button secondary" style="font-size: 0.9rem; padding: 8px 15px;">Read More</a>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.1s; background-color: #f9f9f9;">
+                        <h3>Content is King: How to Create High-Ranking SEO Content</h3>
+                        <p>Discover effective techniques for crafting compelling, optimized content that Google loves and your audience finds valuable.</p>
+                        <a href="#" class="cta-button secondary" style="font-size: 0.9rem; padding: 8px 15px;">Read More</a>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.2s; background-color: #f9f9f9;">
+                        <h3>Technical SEO Checklist: Boost Your Website's Performance</h3>
+                        <p>A comprehensive checklist to identify and fix common technical SEO issues that might be holding your website back from ranking higher.</p>
+                        <a href="#" class="cta-button secondary" style="font-size: 0.9rem; padding: 8px 15px;">Read More</a>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.3s; background-color: #f9f9f9;">
+                        <h3>The Power of Link Building: Acquiring High-Quality Backlinks</h3>
+                        <p>Understand why quality backlinks are crucial for SEO and learn ethical strategies to acquire them for improved domain authority.</p>
+                        <a href="#" class="cta-button secondary" style="font-size: 0.9rem; padding: 8px 15px;">Read More</a>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.4s; background-color: #f9f9f9;">
+                        <h3>SEO for E-commerce: Driving Sales Through Organic Search</h3>
+                        <p>Tailored SEO tactics for online stores, focusing on product page optimization, category SEO, and user experience to boost sales.</p>
+                        <a href="#" class="cta-button secondary" style="font-size: 0.9rem; padding: 8px 15px;">Read More</a>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 0.5s; background-color: #f9f9f9;">
+                        <h3>Measuring SEO ROI: Tracking Your Digital Marketing Success</h3>
+                        <p>Learn how to effectively track and report on your SEO efforts to demonstrate clear return on investment to your stakeholders.</p>
+                        <a href="#" class="cta-button secondary" style="font-size: 0.9rem; padding: 8px 15px;">Read More</a>
+                    </div>
+                </div>
+                <div class="process-cta animate-on-scroll" style="margin-top: 3rem;">
+                    <a href="#" class="cta-button">View All Blog Posts</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FREQUENTLY ASKED QUESTIONS (Kept for content reference, but not in header nav) -->
+        <section id="faq">
+            <div class="container">
+                <h2 class="animate-on-scroll">Frequently Asked Questions</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">Here are some common questions I receive about SEO and working with me.</p>
+                <div class="faq-list">
+                    <details class="faq-item animate-on-scroll">
+                        <summary>What is SEO and why is it important for my business?</summary>
+                        <div class="faq-content">
+                            <p>SEO (Search Engine Optimization) is the practice of increasing the quantity and quality of traffic to your website through organic search engine results. It's crucial because it helps your target audience find you when they are actively looking for your products or services, leading to more qualified leads and sales without paying for ads.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item animate-on-scroll" style="transition-delay: 0.1s;">
+                        <summary>How long does it take to see SEO results?</summary>
+                        <div class="faq-content">
+                            <p>SEO is a long-term strategy, and results can vary based on your industry, competition, and website's current state. Generally, you can start seeing initial improvements in rankings and traffic within 3-6 months, with significant ROI appearing after 6-12 months of consistent effort.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item animate-on-scroll" style="transition-delay: 0.2s;">
+                        <summary>What makes your SEO approach different?</summary>
+                        <div class="faq-content">
+                            <p>My approach is deeply rooted in understanding your business goals first. I focus on revenue-driven strategies, not just vanity metrics. This means technical excellence combined with conversion-focused content and transparent, data-backed reporting. I adapt to algorithm changes and proactively seek opportunities for your growth.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item animate-on-scroll" style="transition-delay: 0.3s;">
+                        <summary>Do you offer a free consultation?</summary>
+                        <div class="faq-content">
+                            <p>Absolutely! I offer a free 30-minute discovery call to understand your business, discuss your challenges, and explore how SEO can help you achieve your objectives. It's a great way for us to see if we're a good fit before any commitment.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item animate-on-scroll" style="transition-delay: 0.4s;">
+                        <summary>What kind of reporting do you provide?</summary>
+                        <div class="faq-content">
+                            <p>Transparency is key. You'll receive comprehensive monthly reports that detail key performance indicators (KPIs) relevant to your business goals, suchs as organic traffic growth, keyword rankings, lead generation, and conversion rates. I ensure you clearly understand the impact of our SEO efforts.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER SUBSCRIPTION SECTION -->
+        <section id="newsletter">
+            <div class="container animate-on-scroll">
+                <h2>Stay Ahead with My SEO Insights</h2>
+                <p class="section-subtitle">
+                    Join my newsletter to receive exclusive SEO tips, industry updates, and advanced strategies directly in your inbox. No spam, just pure value for your business growth.
+                </p>
+                <form class="newsletter-form" id="newsletter-signup-form">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email address" aria-label="Enter your email address for newsletter" required>
+                    <button type="submit" class="cta-button">Subscribe Now</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE SEO TOOLS SECTION (NEWLY MOVED) -->
+        <section id="seo-tools">
+            <div class="container">
+                <h2 class="animate-on-scroll">AI-Driven Content Optimizer</h2>
+                <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.1s;">
+                    Experience how intelligent tools can enhance your content for better search engine visibility. Input a content snippet below to get a simulated SEO suggestion.
+                </p>
+                <div class="tool-container animate-on-scroll" style="transition-delay: 0.2s;">
+                    <textarea id="contentInput" placeholder="Paste your content snippet, a blog post title, or keyword idea here..." aria-label="Content input for SEO optimization"></textarea>
+                    <button id="optimizeContentButton" class="cta-button">Get SEO Suggestion</button>
+                    <div class="tool-output" id="seoSuggestionOutput">
+                        <span class="loading-spinner"></span>
+                        <p id="suggestionText"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL NOW CTA SECTION -->
+        <section id="call-now-cta">
+            <div class="container animate-on-scroll">
+                <h2>Ready for Instant Growth?</h2>
+                <a href="tel:+923059158010" class="cta-button">Call Me Now</a>
+            </div>
+        </section>
+
+        <!-- LEAD GENERATION FORM SECTION -->
+        <section id="contact-form">
+            <div class="container">
+                <h2 class="animate-on-scroll">Ready to Transform Your Online Presence?</h2>
+                <p class="section-subtitle animate-on-scroll" style="color: rgba(255,255,255,0.9); transition-delay: 0.1s;">
+                    <strong>Are you tired of invisible websites and missed opportunities?</strong> Many businesses struggle to turn organic traffic into actual revenue. Just like my recent client who went from 22 to 127 leads per month, your business can achieve dramatic growth. Tell me about your business, your biggest SEO challenge, and what success looks like for you. Let's craft a strategy that drives real revenue and starts your success story today.
+                </p>
+                <form id="lead-generation-form" class="contact-form-grid animate-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="form-group">
+                        <label for="client-name">Your Name</label>
+                        <input type="text" id="client-name" name="client-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="client-email">Your Email Address</label>
+                        <input type="email" id="client-email" name="client-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="website-url">Your Website URL (Optional)</label>
+                        <input type="url" id="website-url" name="website-url" placeholder="e.g., https://yourbusiness.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="problem-facing">What's the biggest SEO challenge you're currently facing?</label>
+                        <textarea id="problem-facing" name="problem-facing" rows="4" required placeholder="e.g., Low organic traffic, poor keyword rankings, lack of leads..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="objective-achieve">What specific objectives do you want to achieve with SEO?</label>
+                        <textarea id="objective-achieve" name="objective-achieve" rows="4" required placeholder="e.g., Increase sales by 50%, rank #1 for 'best widgets', generate 100 leads per month..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget-estimation">What's your estimated budget for SEO services?</label>
+                        <select id="budget-estimation" name="budget-estimation" required>
+                            <option value="">Select an option</option>
+                            <option value="100-300">$100 - $300 / month</option>
+                            <option value="300-500">$300 - $500 / month</option>
+                            <option value="500-1000">$500 - $1,000 / month</option>
+                            <option value="1000-3000">$1,000 - $3,000 / month</option>
+                            <option value="other">Other (please specify in message)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="form-submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- MESSAGE BOX (FOR ALERTS) -->
+    <div id="messageBox" class="message-box">
+        <p id="messageText"></p>
+        <button id="closeMessageBox">OK</button>
+    </div>
+
+    <!-- TARGETED FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-column">
+                <h4>About Mubashar Shahzad</h4>
+                <p>I am an expert SEO consultant dedicated to helping businesses achieve significant online visibility and growth through data-driven and results-oriented strategies. My focus is on boosting your revenue and online presence.</p>
+                <div class="footer-social-links">
+                    <a href="https://linkedin.com/in/mubashar-shahzad-seo-analyst" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/YourTwitterHandle" target="_blank" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://facebook.com/YourFacebookPage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://github.com/YourGitHubProfile" target="_blank" aria-label="GitHub"><i class="fab fa-github-square"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#comprehensive-expertise">Expertise</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact-form">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column footer-contact-info">
+                <h4>Contact Me</h4>
+                <p><i class="fas fa-phone"></i> Phone: <a href="tel:+923059158010">+92 305 9158010</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:mubasharshahzad726@gmail.com">mubasharshahzad726@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Location: Lahore, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Mubashar Shahzad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        // Google Translate Init Function
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,es,fr,de', // Only show these languages in the dropdown
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false // Prevent auto-translation on load
+            }, 'google_translate_element');
+        }
+    </script>
+    <!-- Google Translate Script -->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Navbar Scroll Effect ---
+            const navbar = document.querySelector('.navbar');
+            const scrollProgress = document.getElementById('scroll-progress');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+
+                // Update scroll progress bar
+                const totalHeight = document.body.scrollHeight - window.innerHeight;
+                const scrollPosition = window.scrollY;
+                const progress = (scrollPosition / totalHeight) * 100;
+                scrollProgress.style.width = progress + '%';
+            });
+
+            // --- Hamburger Menu Functionality ---
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            }));
+
+            // --- Animate on Scroll Effect (Intersection Observer) ---
+            const animateOnScrollElements = document.querySelectorAll('.animate-on-scroll');
+            const observerOptions = {
+                root: null, // viewport
+                rootMargin: '0px',
+                threshold: 0.1 // 10% of element visible
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, observerOptions);
+
+            animateOnScrollElements.forEach(el => observer.observe(el));
+
+            // Apply new animation to specific elements within the combined expertise section
+            const animateZoomInElements = document.querySelectorAll('.animate-zoom-in');
+            const zoomInObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target); // Unobserve after first animation
+                    }
+                });
+            }, observerOptions);
+            animateZoomInElements.forEach(el => zoomInObserver.observe(el));
+
+            // --- Email Contact Link Handling ---
+            const emailAddress = 'mubasharshahzad726@gmail.com'; // Corrected email address
+            document.querySelectorAll('[id^="email-contact-link"]').forEach(link => { // Use starts with to catch both IDs
+                link.href = `mailto:${emailAddress}`;
+            });
+
+            // --- Lead Generation Form Submission ---
+            const leadForm = document.getElementById('lead-generation-form');
+            const messageBox = document.getElementById('messageBox');
+            const messageText = document.getElementById('messageText');
+            const closeMessageBoxButton = document.getElementById('closeMessageBox');
+
+            leadForm.addEventListener('submit', (event) => {
+                event.preventDefault(); // Prevent default form submission
+
+                // Collect form data
+                const formData = {
+                    name: document.getElementById('client-name').value,
+                    email: document.getElementById('client-email').value,
+                    websiteUrl: document.getElementById('website-url').value,
+                    problemFacing: document.getElementById('problem-facing').value,
+                    objectiveAchachieve: document.getElementById('objective-achieve').value,
+                    budgetEstimation: document.getElementById('budget-estimation').value
+                };
+
+                console.log('Form Submitted!', formData);
+
+                // Show a success message using the custom message box
+                showMessage('Thank you for your message! I will get back to you shortly.');
+
+                // Clear the form fields
+                leadForm.reset();
+            });
+
+            closeMessageBoxButton.addEventListener('click', () => {
+                messageBox.classList.remove('show');
+            });
+
+            function showMessage(text) {
+                messageText.textContent = text;
+                messageBox.classList.add('show');
+            }
+
+            // --- AI Content Optimizer Logic (Simulated) ---
+            const contentInput = document.getElementById('contentInput');
+            const optimizeContentButton = document.getElementById('optimizeContentButton');
+            const seoSuggestionOutput = document.getElementById('seoSuggestionOutput');
+            const suggestionText = document.getElementById('suggestionText');
+            const loadingSpinner = seoSuggestionOutput.querySelector('.loading-spinner');
+
+            optimizeContentButton.addEventListener('click', () => {
+                const inputText = contentInput.value.trim();
+                suggestionText.textContent = ''; // Clear previous suggestion
+                loadingSpinner.classList.add('active'); // Show spinner
+
+                // Simulate API call delay and more detailed analysis
+                setTimeout(() => {
+                    let suggestion = '';
+                    let readabilityScore = Math.floor(Math.random() * 40) + 30; // 30-70 range
+                    let sentiment = 'neutral';
+                    if (inputText.length > 100 && (inputText.toLowerCase().includes('challenge') || inputText.toLowerCase().includes('problem'))) {
+                        sentiment = 'negative';
+                    } else if (inputText.length > 100 && (inputText.toLowerCase().includes('growth') || inputText.toLowerCase().includes('success'))) {
+                        sentiment = 'positive';
+                    }
+
+                    if (inputText.length === 0) {
+                        suggestion = 'Please enter some content or a keyword idea to get a comprehensive SEO suggestion.';
+                    } else {
+                        let baseSuggestion = 'Great start! ';
+                        if (inputText.length < 150) {
+                            baseSuggestion += `Consider expanding your content to at least 150-300 words for better depth.`;
+                        } else {
+                            baseSuggestion += `Your content has good length.`;
+                        }
+
+                        if (inputText.toLowerCase().includes('keyword')) {
+                            baseSuggestion += ` Ensure your primary keyword is in the title and first paragraph.`;
+                        } else if (Math.random() > 0.5) { // Randomly suggest keyword
+                            baseSuggestion += ` Think about incorporating relevant long-tail keywords naturally.`;
+                        }
+
+                        if (readabilityScore < 50) {
+                            baseSuggestion += ` The readability score is ${readabilityScore} (Flesch-Kincaid scale). Try to simplify complex sentences and use more active voice to improve readability.`;
+                        } else {
+                            baseSuggestion += ` Readability looks good at ${readabilityScore}! Keep it engaging.`;
+                        }
+
+                        if (sentiment === 'positive') {
+                            baseSuggestion += ` Your content has a positive tone, which is great for user engagement.`;
+                        } else if (sentiment === 'negative') {
+                            baseSuggestion += ` The tone seems a bit negative. Consider framing challenges as opportunities.`;
+                        }
+
+                        suggestion = baseSuggestion + ` Always remember to optimize for user intent!`;
+                    }
+
+                    suggestionText.textContent = suggestion;
+                    loadingSpinner.classList.remove('active'); // Hide spinner
+                }, 1800); // Simulate slightly longer loading time for "advanced" analysis
+            });
+
+            // --- Testimonial Slider/Randomizer ---
+            const testimonials = [
+                {
+                    quote: "Mubashar's expertise was a game-changer. Our organic leads have more than doubled, and we're finally seeing a real ROI from our website. Truly an expert who cares about results.",
+                    author: "- CEO, Mammoth Roofing"
+                },
+                {
+                    quote: "The best SEO strategist we've ever worked with. Mubashar's technical audit was incredibly detailed and the strategy was clear and effective. We now rank for keywords we never thought possible.",
+                    author: "- Marketing Director, AAA Mobile Tyres"
+                },
+                {
+                    quote: "Mubashar's insights into local SEO are unmatched. Our Google My Business presence exploded, bringing in a consistent stream of new customers. Highly recommended!",
+                    author: "- Owner, Local Restaurant Chain"
+                },
+                {
+                    quote: "He quickly grasped the complexities of our niche and delivered a content strategy that significantly boosted our organic traffic and conversions. A true asset!",
+                    author: "- Head of Content, SaaS Company"
+                },
+                {
+                    quote: "Professional, responsive, and incredibly effective. Mubashar helped us navigate a major algorithm update with minimal impact and continued to drive growth.",
+                    author: "- Digital Marketing Manager, E-commerce Brand"
+                }
+            ];
+
+            const testimonialQuote = document.getElementById('testimonial-quote');
+            const testimonialAuthor = document.getElementById('testimonial-author');
+            const testimonialDisplay = document.getElementById('testimonial-display');
+            const prevTestimonialBtn = document.getElementById('prevTestimonial');
+            const nextTestimonialBtn = document.getElementById('nextTestimonial');
+
+            let currentTestimonialIndex = 0;
+
+            function displayTestimonial(index) {
+                testimonialDisplay.classList.remove('active'); // Fade out current
+                setTimeout(() => {
+                    testimonialQuote.textContent = testimonials[index].quote;
+                    testimonialAuthor.textContent = testimonials[index].author;
+                    testimonialDisplay.classList.add('active'); // Fade in new
+                }, 500); // Wait for fade out
+            }
+
+            // Initialize with a random testimonial
+            currentTestimonialIndex = Math.floor(Math.random() * testimonials.length);
+            displayTestimonial(currentTestimonialIndex);
+
+            nextTestimonialBtn.addEventListener('click', () => {
+                currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
+                displayTestimonial(currentTestimonialIndex);
+            });
+
+            prevTestimonialBtn.addEventListener('click', () => {
+                currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonials.length) % testimonials.length;
+                displayTestimonial(currentTestimonialIndex);
+            });
+
+            // --- Newsletter Form Submission ---
+            const newsletterForm = document.getElementById('newsletter-signup-form');
+            newsletterForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+                const email = document.getElementById('newsletter-email').value;
+                console.log(`Newsletter signup for: ${email}`);
+                showMessage('Thank you for subscribing to our newsletter!');
+                newsletterForm.reset();
+            });
+
+
+            // --- Light/Dark Mode Toggle ---
+            const themeToggle = document.getElementById('themeToggle');
+            const themeIcon = document.getElementById('themeIcon');
+            const body = document.body;
+
+            // Function to set the theme
+            function setTheme(theme) {
+                if (theme === 'dark') {
+                    body.classList.add('dark-mode');
+                    themeIcon.classList.remove('fa-moon');
+                    themeIcon.classList.add('fa-sun');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    body.classList.remove('dark-mode');
+                    themeIcon.classList.remove('fa-sun');
+                    themeIcon.classList.add('fa-moon');
+                    localStorage.setItem('theme', 'light');
+                }
+            }
+
+            // Check for saved theme preference or system preference
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                setTheme(savedTheme);
+            } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                setTheme('dark'); // Default to dark if system preference is dark
+            } else {
+                setTheme('light'); // Default to light
+            }
+
+            // Toggle theme on button click
+            themeToggle.addEventListener('click', () => {
+                if (body.classList.contains('dark-mode')) {
+                    setTheme('light');
+                } else {
+                    setTheme('dark');
+                }
+            });
+
+            // --- Partner Logo Slider ---
+            const logoCarousel = document.getElementById('logoCarousel');
+            const carouselPrevBtn = document.getElementById('carouselPrev');
+            const carouselNextBtn = document.getElementById('carouselNext');
+            const initialLogoItems = Array.from(logoCarousel.children); // Get initial logo elements
+            const totalLogos = initialLogoItems.length;
+            let currentSlide = 0;
+            let autoSlideInterval;
+            const slideDuration = 3000; // Time per slide in ms
+
+            // Clone logos to create an infinite loop effect. Clone enough to fill at least twice the visible area.
+            // Also ensure the clones include the new <strong> tags
+            const logosData = [
+                { src: "https://placehold.co/100x50/cccccc/000000?text=GlobalTech", name: "GlobalTech Solutions" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=ApexInnov", name: "Apex Innovations" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=QuantumH", name: "Quantum Health" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=Stratton", name: "Stratton Legal" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=Finvest", name: "Finvest Capital" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=DigitalH", name: "Digital Horizon" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=EcoSol", name: "EcoSolutions Pro" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=UrbanLiv", name: "Urban Living Co." },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=PeakPerf", name: "Peak Performance Academy" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=AeroDyn", name: "AeroDynamics Inc." },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=MediCare", name: "MediCare Solutions" },
+                { src: "https://placehold.co/100x50/cccccc/000000?text=EduVerse", name: "EduVerse Learning" }
+            ];
+
+            // Clear existing elements to re-populate with clones including text
+            logoCarousel.innerHTML = '';
+
+            // Populate carousel with original items and then clones
+            // We need to clone enough to ensure smooth continuous scrolling
+            const numClones = logosData.length * 2; // Clone the entire set twice for seamless loop
+            const fullLogosArray = logosData.concat(logosData, logosData); // Original + 2 copies for infinite effect
+
+            fullLogosArray.forEach(logo => {
+                const logoItem = document.createElement('div');
+                logoItem.classList.add('logo-item');
+
+                const img = document.createElement('img');
+                img.src = logo.src;
+                img.alt = `Client Logo ${logo.name}`;
+
+                const strong = document.createElement('strong');
+                strong.textContent = logo.name;
+
+                logoItem.appendChild(img);
+                logoItem.appendChild(strong);
+                logoCarousel.appendChild(logoItem);
+            });
+
+
+            function updateCarouselPosition() {
+                // Recalculate itemWidth dynamically as styles might change with theme or responsiveness
+                const firstItem = logoCarousel.querySelector('.logo-item');
+                if (!firstItem) return; // Exit if no items exist
+
+                const itemWidth = firstItem.offsetWidth +
+                                 parseFloat(getComputedStyle(firstItem).marginLeft) +
+                                 parseFloat(getComputedStyle(firstItem).marginRight);
+
+                const offset = currentSlide * itemWidth;
+                logoCarousel.style.transform = `translateX(-${offset}px)`;
+
+                // Handle infinite loop for auto-sliding:
+                // If we've scrolled past the first set of original logos, reset to the beginning of the cloned set
+                // We assume `logosData.length` is the count of original distinct logos.
+                if (currentSlide >= logosData.length) {
+                    logoCarousel.classList.add('sliding'); // Temporarily disable transition
+                    currentSlide = 0; // Reset slide index to the first clone
+                    logoCarousel.style.transform = `translateX(0px)`;
+                    setTimeout(() => {
+                        logoCarousel.classList.remove('sliding'); // Re-enable transition
+                    }, 50); // Small delay to allow instant snap
+                }
+            }
+
+
+            function startAutoSlide() {
+                stopAutoSlide(); // Clear any existing interval before starting a new one
+                autoSlideInterval = setInterval(() => {
+                    currentSlide++;
+                    updateCarouselPosition();
+                }, slideDuration);
+            }
+
+            function stopAutoSlide() {
+                clearInterval(autoSlideInterval);
+            }
+
+            carouselNextBtn.addEventListener('click', () => {
+                stopAutoSlide();
+                currentSlide++;
+                updateCarouselPosition();
+                startAutoSlide(); // Restart auto-slide after manual interaction
+            });
+
+            carouselPrevBtn.addEventListener('click', () => {
+                stopAutoSlide();
+                currentSlide--;
+                if (currentSlide < 0) {
+                    // If going back from the first original item, jump to the equivalent position in the cloned set
+                    logoCarousel.classList.add('sliding');
+                    currentSlide = logosData.length -1; // Go to the last original item's index, which is equivalent to the first clone
+                    const itemWidth = logoCarousel.querySelector('.logo-item').offsetWidth +
+                                 parseFloat(getComputedStyle(logoCarousel.querySelector('.logo-item')).marginLeft) +
+                                 parseFloat(getComputedStyle(logoCarousel.querySelector('.logo-item')).marginRight);
+                    logoCarousel.style.transform = `translateX(-${currentSlide * itemWidth}px)`;
+
+                    setTimeout(() => {
+                        logoCarousel.classList.remove('sliding');
+                        updateCarouselPosition(); // Ensure it updates to the correct visual position
+                    }, 50);
+
+                } else {
+                    updateCarouselPosition();
+                }
+                startAutoSlide(); // Restart auto-slide after manual interaction
+            });
+
+
+            // Initialize carousel
+            updateCarouselPosition();
+            startAutoSlide();
+
+            // Recalculate position on window resize
+            window.addEventListener('resize', () => {
+                stopAutoSlide();
+                updateCarouselPosition();
+                startAutoSlide();
+            });
+
+            // --- Client Perspective Toggle Logic ---
+            const servicesButton = document.getElementById('servicesButton');
+            const resourcesButton = document.getElementById('resourcesButton');
+            const toggleIndicator = document.getElementById('toggleIndicator');
+
+            function updateToggleVisual(activeButton) {
+                servicesButton.classList.remove('active');
+                resourcesButton.classList.remove('active');
+                activeButton.classList.add('active');
+
+                // Move indicator
+                if (activeButton === servicesButton) {
+                    toggleIndicator.style.transform = 'translateX(0)';
+                } else {
+                    const buttonWidth = servicesButton.offsetWidth; // Assuming both buttons have same width
+                    const padding = parseFloat(getComputedStyle(servicesButton.parentElement).paddingLeft); // Get parent padding
+                    toggleIndicator.style.transform = `translateX(${buttonWidth + padding}px)`;
+                }
+            }
+
+            // Initial state
+            updateToggleVisual(servicesButton);
+
+            servicesButton.addEventListener('click', () => {
+                updateToggleVisual(servicesButton);
+                // In a real application, this would trigger content changes
+                console.log('Switched to My Services view');
+            });
+
+            resourcesButton.addEventListener('click', () => {
+                updateToggleVisual(resourcesButton);
+                // In a real application, this would trigger content changes
+                console.log('Switched to Client Resources view');
+            });
+
+            // Adjust indicator on window resize for responsiveness
+            window.addEventListener('resize', () => {
+                // Ensure the indicator position is correct if buttons resize
+                const activeButton = servicesButton.classList.contains('active') ? servicesButton : resourcesButton;
+                updateToggleVisual(activeButton);
+            });
+        });
+    </script>
+</body>
+</html>
